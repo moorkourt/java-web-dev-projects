@@ -13,6 +13,22 @@ public class MenuItem {
         this.isNew = iN;
     }
 
+    public double getPrice() {
+        return price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public boolean isNew() {
+        return isNew;
+    }
+
     public void setPrice(double price) {
         this.price = price;
     }
